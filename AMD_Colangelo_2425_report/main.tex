@@ -53,7 +53,7 @@ The Amazon Books Reviews dataset, in the version used (version 1 of 2022), has a
     \end{itemize}
     For this dataset, the primary key (i.e. what characterizes a review) is made up of the pair of values \texttt{(ID, User\_id)}: this is the reason those columns were necessary. 
     \item \texttt{books\_data}: has a size of approximately 180 megabytes and 
-    contains information for approximately 200,000 books. 
+    contains information for approximately 200000 books. 
     This table will not be considered, as the work performed focused on book reviews.
 \end{itemize}
 This dataset is downloaded at runtime and, as will be shown later, will be sampled randomly to ensure reasonably low execution times and memory requirements.
@@ -146,13 +146,13 @@ MinHashing is a data compression method that allows us to efficiently estimate J
     \item $\forall$ documents, scan its document column in the matrix until the fist 1, and return the corresponding shingle row.
     \item Construction of the Signature Matrix (let's call it SM), which columns are intended as signatures and define a document. A signature is an array of values, each corresponding to the output of an hash function applied after a permutation of the rows. It's a compact representation of the characteristic matrix.
 \end{enumerate}
-In the work done, the number H of independent hash functions choosen is 128, which has been resulted as a good compromise between the accuracy of the Jaccard similarity and the computational cost required. Every hash function is in the form of
+In the work done, \textbf{the number H of independent hash functions choosen was 128}, which has been resulted as a good compromise between the accuracy of the Jaccard similarity and the computational cost required. Every hash function is in the form of
 \begin{equation}
     h_i(x) = (a_i\cdot x + b_i) \text{ mod p} 
 \end{equation}
 where $a_i$ and $b_i$ are casual values with fixed seed for reproducibility, p is a large prime number and x is the encode of the shingle. The reasons behind the choise of this hash function are several: first of all, is very simple to calculate, which is ideal for large datasets. Second, picked a and b randomly, the probability that two distinct values $x_1$ and $x_2$ collides is limited. Finally, for MinHashing a lot of independent hash functions are required and varying a and b makes sure that each hash function behave like a different permutation in the space of the shingles. 
 
-Let's see these hash function in action in the work done:
+%Let's see these hash function in action in the work done:
 
 Using these hash functions allows us to exploit a very important theorem that further reduces computational cost. The hash functions used are random functions: that is, each time the characteristic matrix is observed, a permutation is randomly (and uniformly) chosen and the MinHashing is calculated. We define as E the event $H(D_1) = H(D_2)$ where $D_1$ and $D_2$ are two documents: this means that in the permuted matrix, for a given hash function h, the two documents $D_1$ and $D_2$ will have the same value k.
 
@@ -187,7 +187,7 @@ $, this would require about 5-6 days of total computational time, which is not t
 \subsection{Locality-Sensitive Hashing (LSH)}
 Locality-sensitive hashing is a technique that significantly reduces time complexity by drastically reducing the number of document pairs to compare, selecting only a subset of candidates that are highly likely to be similar, or, in other words, with a Jaccard similarity above a certain threshold. This technique hashes elements multiple times, making it more likely that similar elements will be hashed. Candidate pairs are those that are hashed to the same bucket, and Jaccard similarity is calculated only for these.
 
-The idea is to divide the signature matrix into b bands of r rows each, and each band is associated with a hash function that takes a vector of r integers and hashes them to buckets. This means that if two documents are similar, then at least one of their bands must be identical. It can be shown that, by defining the event E = "The two documents have the same projection (or sub-signature) in at least one band," then
+The idea is to divide the signature matrix into b bands of r rows each, and each band is associated with a hash function that takes a vector of r integers and hashes them to buckets. This means that if two documents are similar and should be considered potential candidates, then at least one of their bands must be identical. It can be shown that, by defining the event E = "The two documents have the same projection (or sub-signature) in at least one band," then
 \begin{equation}
     P(E) = 1-(1-s^r)^b := p(s)
 \end{equation}
@@ -205,7 +205,7 @@ We therefore have a formula for finding the minimum similarity threshold, howeve
 \end{equation}
 where n is the length of the MinHashing signatures, which in our case is equal to 128. 
 
-For the work done it has been decided a minimum similarity threshold equal to about 0.4: since n = 128, to obtain $t \approx 0.4$ the choice of r has been 4 while the choice of b has been 32. 
+For the work done it has been decided a \textbf{minimum similarity threshold t equal to about 0.4}: since n = 128, to obtain $t \approx 0.4$ we set \textbf{$r=4$ and $b=32$.}
 
 The following figure
 \begin{figure}[H]
@@ -213,7 +213,7 @@ The following figure
     \includegraphics[width=0.8\textwidth]{curva.png}
     \label{fig:placeholder}
 \end{figure}
-shows the graph for the function $p(s)$. The red dot is approximately 0.4 and is the minimum similarity threshold.
+shows the graph for the function $p(s)$ with b=32 and r=4 as parameters. The red dot is approximately 0.4 and is the minimum similarity threshold.
 
 At this point we have all the elements necessary to define a specific procedure to find similar reviews, using Jaccard similarity as a similarity metric and using MinHashing and LSH to reduce the computational complexity with all the necessary precautions provided by Spark to scale even to larger datasets having a real cluster available.
 \begin{enumerate}
