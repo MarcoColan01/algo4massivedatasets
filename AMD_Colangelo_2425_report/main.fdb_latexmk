@@ -1,21 +1,5 @@
 # Fdb version 4
-<<<<<<< HEAD
-["pdflatex"] 1757443447.22247 "c:/Users/cola0/Desktop/algo4massivedatasets/AMD_Colangelo_2425_report/main.tex" "main.pdf" "main" 1757443447.89265 2
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757058035 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1757058048 31952 6317de0b3b84742e2d955dcb4023e208 ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1757058045 40136 fff1b80e84850abafcf78b4161587d71 ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1728.pk" 1757058050 49100 8f7457c7fa2a5e92d3c85f89db4dcea0 ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2074.pk" 1757058051 59008 390259bae76316f84c97296b9060efc9 ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0900.pk" 1757058042 21356 78e884d92dfbd0321e03a31cd65f6493 ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk" 1757058049 28440 defde2627d4b0f78a55a72ff13b5bb36 ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1440.pk" 1757058051 34320 7a90628ad0200ce093ec609e9d77e678 ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecti1200.pk" 1757058044 39120 fe54ec63eef22c6de0cf8d4785164856 ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk" 1757058046 24152 4a938133270fbd7100c932f00ebd4fb4 ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1757058043 10472 ac81ce609b9aea020a54828473709d32 ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1757058047 14064 aeada048f6c52819c763b254449b2bde ""
-  "C:/Users/cola0/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1757057890 13257342 862d24209db17f701576e66753871c4d ""
-=======
-["pdflatex"] 1757444782.74296 "c:/Users/cola0/Desktop/algo4massivedatasets/AMD_Colangelo_2425_report/main.tex" "main.pdf" "main" 1757444784.32952 2
+["pdflatex"] 1757445137.87965 "c:/Users/cola0/Desktop/algo4massivedatasets/AMD_Colangelo_2425_report/main.tex" "main.pdf" "main" 1757445139.15353 2
   "C:/Users/cola0/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756979591 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1756977789 31952 7fd83a51881c87d631bbc36452e99ed8 ""
   "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1756977785 40136 2f251dea95dd6f6998c1dda0a0b42cc5 ""
@@ -29,7 +13,6 @@
   "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1756977783 10472 73281658ef74209db0b72b73cbf070c7 ""
   "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1756977788 14064 6b7ac40a8555412d1c6cf2173ae545b2 ""
   "C:/Users/cola0/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1756979608 13257342 87b40350ed0367a7ead31fa24549638e ""
->>>>>>> 9ef9155387fed5d06a8ce626818ccb1da24b8353
   "C:/Users/cola0/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993061958 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
   "C:/Users/cola0/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993061960 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
   "C:/Users/cola0/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1728.tfm" 993061962 3204 d35cb76836b6cb4ed404dd64a550530d ""
@@ -100,18 +83,6 @@
   "C:/Users/cola0/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1749322634 4023 e66acf578d6b564c4670fb57ff336a7a ""
   "C:/Users/cola0/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1751005717 30351 a2b09edc6c93a742566b222c33d0278e ""
   "C:/Users/cola0/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
-<<<<<<< HEAD
-  "Screenshot 2025-09-04 103020.png" 1757057461 36361 a46092f3f55e82f1da5a04b194e1ea57 ""
-  "Screenshot 2025-09-04 103608.png" 1757057461 4495 384b5fe932d3dbd26bd12108b5d3e3a7 ""
-  "Screenshot 2025-09-04 103734.png" 1757057461 2745 cc80b6823b473eec39dbdf4fc11ce6b1 ""
-  "Screenshot 2025-09-04 103955.png" 1757057461 4159 65646ce219becec3cd97f00326f83768 ""
-  "Screenshot 2025-09-04 104157.png" 1757057461 16406 dafeae7ae05ab328eec9b34f2fc2092e ""
-  "Screenshot_1.png" 1757443443 21993 b282ec9734c4085520e1ffff564580a3 ""
-  "Screenshot_2.png" 1757443443 29234 c3bf9905d92a5f39d5b98acb242d53a6 ""
-  "c:/Users/cola0/Desktop/algo4massivedatasets/AMD_Colangelo_2425_report/main.tex" 1757443443 50943 5964a902a360963adb29c12997fa5b1d ""
-  "main.aux" 1757443447 2190 ab740f7a7edb6005f2054c2c1a6fb9c7 "pdflatex"
-  "main.tex" 1757443443 50943 5964a902a360963adb29c12997fa5b1d ""
-=======
   "Screenshot 2025-09-04 103020.png" 1757339830 36361 a46092f3f55e82f1da5a04b194e1ea57 ""
   "Screenshot 2025-09-04 103608.png" 1757339830 4495 384b5fe932d3dbd26bd12108b5d3e3a7 ""
   "Screenshot 2025-09-04 103734.png" 1757339830 2745 cc80b6823b473eec39dbdf4fc11ce6b1 ""
@@ -119,10 +90,9 @@
   "Screenshot 2025-09-04 104157.png" 1757339830 16406 dafeae7ae05ab328eec9b34f2fc2092e ""
   "Screenshot_1.png" 1757428287 21993 b282ec9734c4085520e1ffff564580a3 ""
   "Screenshot_2.png" 1757428411 29234 c3bf9905d92a5f39d5b98acb242d53a6 ""
-  "c:/Users/cola0/Desktop/algo4massivedatasets/AMD_Colangelo_2425_report/main.tex" 1757444778 51168 8ecf4f1832d1dc661493a1d57a253c8e ""
-  "main.aux" 1757444783 2190 ab740f7a7edb6005f2054c2c1a6fb9c7 "pdflatex"
-  "main.tex" 1757444778 51168 8ecf4f1832d1dc661493a1d57a253c8e ""
->>>>>>> 9ef9155387fed5d06a8ce626818ccb1da24b8353
+  "c:/Users/cola0/Desktop/algo4massivedatasets/AMD_Colangelo_2425_report/main.tex" 1757445133 51166 e77f00057d635093be0f6b3111e22a40 ""
+  "main.aux" 1757445138 2190 ab740f7a7edb6005f2054c2c1a6fb9c7 "pdflatex"
+  "main.tex" 1757445133 51166 e77f00057d635093be0f6b3111e22a40 ""
   (generated)
   "main.aux"
   "main.log"
