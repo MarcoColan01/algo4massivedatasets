@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1757342034.6045 "c:/Users/cola0/Desktop/algo4massivedatasets/AMD_Colangelo_2425_report/main.tex" "main.pdf" "main" 1757342041.41739 2
+["pdflatex"] 1757443048.53056 "c:/Users/cola0/Desktop/algo4massivedatasets/AMD_Colangelo_2425_report/main.tex" "main.pdf" "main" 1757443049.87913 2
   "C:/Users/cola0/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756979591 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1756977789 31952 7fd83a51881c87d631bbc36452e99ed8 ""
   "C:/Users/cola0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1756977785 40136 2f251dea95dd6f6998c1dda0a0b42cc5 ""
@@ -88,11 +88,11 @@
   "Screenshot 2025-09-04 103734.png" 1757339830 2745 cc80b6823b473eec39dbdf4fc11ce6b1 ""
   "Screenshot 2025-09-04 103955.png" 1757339830 4159 65646ce219becec3cd97f00326f83768 ""
   "Screenshot 2025-09-04 104157.png" 1757339830 16406 dafeae7ae05ab328eec9b34f2fc2092e ""
-  "c:/Users/cola0/Desktop/algo4massivedatasets/AMD_Colangelo_2425_report/main.tex" 1757342026 47904 593d56f0ee67a9516277d760fd503ef5 ""
-  "curva.png" 1757339830 550118 698485e6fe2f84655ddf11e8d2ee31b0 ""
-  "main.aux" 1757342041 2190 93d7def5f343b954adf14f0baa9020b8 "pdflatex"
-  "main.tex" 1757342026 47904 593d56f0ee67a9516277d760fd503ef5 ""
-  "minhash_property.png" 1757339830 741827 f34b6d2102b7f690367f51db83692ce2 ""
+  "Screenshot_1.png" 1757428287 21993 b282ec9734c4085520e1ffff564580a3 ""
+  "Screenshot_2.png" 1757428411 29234 c3bf9905d92a5f39d5b98acb242d53a6 ""
+  "c:/Users/cola0/Desktop/algo4massivedatasets/AMD_Colangelo_2425_report/main.tex" 1757432744 50943 5964a902a360963adb29c12997fa5b1d ""
+  "main.aux" 1757443049 2190 ab740f7a7edb6005f2054c2c1a6fb9c7 "pdflatex"
+  "main.tex" 1757432744 50943 5964a902a360963adb29c12997fa5b1d ""
   (generated)
   "main.aux"
   "main.log"
